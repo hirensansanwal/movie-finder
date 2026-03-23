@@ -35,3 +35,16 @@ To build an interactive web application using JavaScript, API integration, and U
 ## 📅 Status
 
 Milestone 1 Completed (Planning Phase)
+
+## 🔗 API Selection
+
+For this project, I will be using the OMDb (Open Movie Database) API.
+
+The OMDb API provides access to movie-related data such as titles, release years, posters, and ratings. It allows users to search for movies by name and retrieve real-time data.
+
+This API is suitable for my project because it supports dynamic data fetching and enables features like search, filtering, and sorting, which are required for this application.
+
+API Link: https://www.omdbapi.com/
+
+Note: An API key will be used to authenticate requests.
+
