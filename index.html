@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🎬 Movie Finder</h1>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search for movies...">
+    <button onclick="searchMovies()">Search</button>
+  </div>
+  <div class="controls">
+  <button onclick="sortMovies()">Sort A-Z</button>
+  <button onclick="filterMovies()">After 2015</button>
+    </div>
+
+  <p id="loading" class="hidden">Loading...</p>
+
+  <div id="movies"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
